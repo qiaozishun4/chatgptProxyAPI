@@ -13,7 +13,7 @@ export async function onRequest(context) {
 
     // console.log('https://api.openai.com' + url.pathname + url.search);
 
-    const modifiedRequest = new Request('https://api.openai.com' + url.pathname + url.search, {
+    const modifiedRequest = new Request('https://free.v36.cm' + url.pathname + url.search, {
         method: request.method,
         headers: request.headers,
         body: request.body,
