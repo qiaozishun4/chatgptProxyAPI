@@ -1,4 +1,4 @@
-const TELEGRAPH_URL = 'https://api.openai.com';
+const TELEGRAPH_URL = 'https://free.v36.cm';
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
